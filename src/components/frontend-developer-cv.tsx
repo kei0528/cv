@@ -9,7 +9,12 @@ export function FrontendDeveloperCv() {
       <div className='container mx-auto p-6 space-y-8 max-w-3xl'>
         <header className='text-center space-y-4'>
           <div className='mx-auto w-28 h-28 relative mb-4'>
-            <Image src='/image/portrait.jpg' alt="Jane Doe's profile picture" layout='fill' className='rounded-full' />
+            <Image
+              src='/cv/image/portrait.jpg'
+              alt="Keisuke Tanaka's profile picture"
+              layout='fill'
+              className='rounded-full'
+            />
           </div>
           <h1 className='text-4xl font-bold'>Keisuke Tanaka</h1>
           <h2 className='text-2xl text-neutral-500 dark:text-neutral-400'>Full Stack / Front End Developer</h2>
