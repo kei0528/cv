@@ -6,9 +6,9 @@ import Image from 'next/image';
 export function FrontendDeveloperCv() {
   return (
     <div className='min-h-screen min-w-screen grid items-center justify-center'>
-      <div className='container mx-auto p-6 space-y-8 max-w-3xl'>
+      <div className='container mx-auto p-4 sm:p-6 space-y-8 max-w-3xl'>
         <header className='text-center space-y-4'>
-          <div className='mx-auto w-28 h-28 relative mb-4'>
+          <div className='mx-auto w-24 h-24 sm:w-28 sm:h-28 relative mb-4'>
             <Image
               src='/cv/image/portrait.jpg'
               alt="Keisuke Tanaka's profile picture"
@@ -16,9 +16,11 @@ export function FrontendDeveloperCv() {
               className='rounded-full'
             />
           </div>
-          <h1 className='text-4xl font-bold'>Keisuke Tanaka</h1>
-          <h2 className='text-2xl text-neutral-500 dark:text-neutral-400'>Full Stack / Front End Developer</h2>
-          <div className='flex justify-center space-x-4'>
+          <h1 className='text-3xl sm:text-4xl font-bold'>Keisuke Tanaka</h1>
+          <h2 className='text-xl sm:text-2xl text-neutral-500 dark:text-neutral-400'>
+            Full Stack / Front End Developer
+          </h2>
+          <div className='flex justify-center items-center space-x-4 flex-col sm:flex-row'>
             <a
               target='_blank'
               href='mailto:keisuketanaka97@gmail.com'
