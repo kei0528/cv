@@ -71,6 +71,7 @@ export function FrontendDeveloperCv() {
               <Badge>Postgres</Badge>
               <Badge>Jest</Badge>
               <Badge>Git</Badge>
+              <Badge>Figma</Badge>
             </div>
             <div>
               <h3 className='font-semibold mb-2'>Languages</h3>
@@ -92,11 +93,8 @@ export function FrontendDeveloperCv() {
             <div>
               <h3 className='font-semibold'>Web Developer</h3>
               <p className='text-sm text-neutral-500 dark:text-neutral-400'>Octily GmbH | 2021 - Present</p>
-              <ul className='list-disc list-inside mt-2 space-y-1'>
-                <li>
-                  Led the development of the CMS application. The contents will be hosted to over 50000 users every day
-                  for their daily work.
-                </li>
+              <ul className='list-disc list-outside pl-4 mt-2 space-y-1'>
+                <li>Led the development of the CMS application used by over 50,000 daily users</li>
                 <li>Mentored junior developers and conducted code reviews to ensure high code quality</li>
                 <li>
                   Managed and developed multiple small to medium-sized web applications using TypeScript and React.
@@ -105,14 +103,14 @@ export function FrontendDeveloperCv() {
             </div>
             <div>
               <h3 className='font-semibold'>Full Stack Developer</h3>
-              <p className='text-sm text-neutral-500 dark:text-neutral-400'>Freelance | 2021 - 2024</p>
-              <ul className='list-disc list-inside mt-2 space-y-1'>
+              <p className='text-sm text-neutral-500 dark:text-neutral-400'>Freelance | 2020 - 2024</p>
+              <ul className='list-disc list-outside pl-4 mt-2 space-y-1'>
                 <li>
-                  Developed and maintained B2B web applications using modern technologies such as AI integrations and
-                  high performance backend system using Bun and Hono.
+                  Developed B2B web applications, incorporating AI integrations and high-performance backend systems
+                  using Bun/Hono, hosted on Cloudflare Workers.
                 </li>
-                <li>Maintained large scale web applications written in legacy JavaScript code</li>
-                <li>Designed and developed websites for local businesses</li>
+                <li>Maintained large-scale web applications with legacy tech stacks</li>
+                <li>Designed and built websites for local businesses, enhancing their digital presence.</li>
               </ul>
             </div>
           </CardContent>
