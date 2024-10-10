@@ -67,8 +67,8 @@ export function FrontendDeveloperCv() {
               <Badge>JavaScript / TypeScript / Node.js</Badge>
               <Badge>React / Next.js</Badge>
               <Badge>Express / Hono</Badge>
-              <Badge>Firebase</Badge>
-              <Badge>Postgres</Badge>
+              <Badge>NoSQL (Firebase)</Badge>
+              <Badge>SQL (PostgreSQL)</Badge>
               <Badge>Jest</Badge>
               <Badge>Git</Badge>
               <Badge>Figma</Badge>
