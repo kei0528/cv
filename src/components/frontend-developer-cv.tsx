@@ -64,7 +64,7 @@ export function FrontendDeveloperCv() {
             <h3 className='font-semibold mb-2'>Technical Skills</h3>
             <div className='flex flex-wrap gap-2'>
               <Badge>HTML / CSS / SASS / Tailwind CSS</Badge>
-              <Badge>JavaScript / TypeScript</Badge>
+              <Badge>JavaScript / TypeScript / Node.js</Badge>
               <Badge>React / Next.js</Badge>
               <Badge>Express / Hono</Badge>
               <Badge>Firebase</Badge>
